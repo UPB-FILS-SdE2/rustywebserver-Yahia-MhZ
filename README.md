@@ -4,6 +4,6 @@
 Detail the homework implementation.
 j'ai développé un serveur Web en Rust capable de servir des fichiers et d'exécuter des scripts. Le serveur prend en charge les requêtes HTTP GET et POST, et renvoie le contenu des fichiers demandés depuis un dossier racine spécifié
 pour compiler : cargo build
-pour lancer le serveur : cargo run -- 8000 web_root
-et pour tester le serveur : curl http://localhost:8000/file.txt
+pour lancer le serveur : cargo run -- 8000 /workspaces/rustywebserver-Yahia-MhZ/web_root
+
 
